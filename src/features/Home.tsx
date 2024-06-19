@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { GetQuiz } from "../services/GetQuiz";
 import { QuizResponse } from "../types/question-type";
-import QuizForm from "../forms/QuizForm";
+import QuizForm from "../components/QuizForm";
 import { useNavigate } from "@tanstack/react-router";
 import { useAtom } from "jotai";
 import { scoreAtom } from "../atoms/ScoreAtom";

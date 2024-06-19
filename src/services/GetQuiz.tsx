@@ -12,7 +12,6 @@ export const GetQuiz = () => {
         );
         return response.data.results as QuizResponse[];
       } catch (error) {
-        console.log(error, "error");
         return [];
       }
     },
